@@ -14,11 +14,10 @@ function App() {
         color:"black"
     }
   return (
-    <div>
       <div style={theme?dark:light}>
             <button onClick={()=>setTheme(!theme)}>{theme?'dark':'light'}</button>
 
-        </div>
+       
       
          <Arts></Arts>
     </div>
